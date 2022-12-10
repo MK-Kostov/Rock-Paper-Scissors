@@ -1,0 +1,118 @@
+main {
+  background-image: url("./images/wood-texture-background-rustic-old-wood-texture_324894-86.jpg");
+  width: 100%;
+  object-fit: cover;
+  height: 1000px;
+  margin: 0px auto;
+  position: relative;
+}
+h1 {
+  display: flex;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  color: #031b12;
+  font-family: "Open Sans";
+  font-style: italic;
+}
+
+.game {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.rock {
+  width: 30%;
+}
+
+.rock-img {
+  width: 300px;
+  border-radius: 100%;
+  margin-bottom: 25px;
+}
+
+.button-rock {
+  width: 100px;
+  padding: 8px;
+  font-family: "Open Sans";
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  background-color: #d4a130;
+}
+
+.button-rock:hover {
+  color: white;
+  background-color: #c3d428;
+}
+
+.paper {
+  width: 30%;
+}
+
+.paper-img {
+  width: 300px;
+  border-radius: 100%;
+  margin-bottom: 25px;
+}
+
+.button-paper {
+  width: 100px;
+  padding: 8px;
+  font-family: "Open Sans";
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  background-color: #d4a130;
+}
+
+.button-paper:hover {
+  color: white;
+  background-color: #c3d428;
+}
+
+.scissors {
+  width: 30%;
+}
+
+.scissors-img {
+  width: 300px;
+  height: 200px;
+  border-radius: 100%;
+  margin-bottom: 25px;
+}
+
+.button-scissors {
+  width: 100px;
+  padding: 8px;
+  font-family: "Open Sans";
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  background-color: #d4a130;
+}
+
+.button-scissors:hover {
+  color: white;
+  background-color: #c3d428;
+}
+
+.result.button-rock {
+  justify-content: center;
+  display: flex;
+  width: 257px;
+  align-items: center;
+  margin: 0px auto;
+  margin-top: 50px;
+}
+
+.message {
+  margin-right: 20px;
+}
+
+.player-result {
+  margin-right: 20px;
+}
